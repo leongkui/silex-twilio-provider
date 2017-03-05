@@ -1,24 +1,16 @@
 {
-    "name": "amassaro/silex-twilio-provider",
+    "name": "leongkui/silex-twilio-provider",
     "type": "library",
     "description": "Twilio Service Provider for Twilio API and TwiML support in Silex",
     "keywords": ["twilio","api","twiml"],
-    "homepage": "http://github.com/amassaro/silex-twilio-provider",
+    "homepage": "http://github.com/leongkui/silex-twilio-provider",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Anthony Massaro",
-            "email": "me@anthonymassaro.com",
-            "homepage": "http://anthonymassaro.com",
-            "role": "Developer"
-        }
-    ],
 	"require": {
 		"php": ">=5.3.1",
-		"silex/silex": "~1.2",
+		"silex/silex": ">2.0.0",
 		"twilio/sdk": "*"
 	},
 	"autoload": {
-        "psr-0": { "Amassaro\\Silex\\Twilio": "src" }
+        "psr-0": { "leongkui\\Silex\\Twilio": "src" }
     }
 }
